@@ -7526,7 +7526,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -7715,7 +7715,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">duckdb</span>
@@ -7757,7 +7757,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sleep_data</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s2">"./data/unzipped/Takeout/Fitbit/Global Export Data/sleep-*.json"</span><span class="p">,</span> <span class="n">timestamp_format</span><span class="o">=</span><span class="s2">"%Y-%m-</span><span class="si">%d</span><span class="s2">T%H:%M:%S.</span><span class="si">%g</span><span class="s2">"</span><span class="p">)</span>
@@ -7929,7 +7929,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sleep_data</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span><span class="o">.</span><span class="n">df</span><span class="p">()</span>
@@ -7943,7 +7943,7 @@ Summary of all file types across all directories:
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8126,7 +8126,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"SELECT dateOfSleep, count(*) as count FROM sleep_data GROUP BY dateOfSleep Having count(*) &gt; 1"</span><span class="p">)</span><span class="o">.</span><span class="n">df</span><span class="p">())</span>
@@ -8168,27 +8168,27 @@ Summary of all file types across all directories:
 <tbody>
 <tr>
 <th>0</th>
-<td>2024-08-05</td>
+<td>2023-11-09</td>
 <td>2</td>
 </tr>
 <tr>
 <th>1</th>
-<td>2024-02-07</td>
+<td>2024-07-06</td>
 <td>2</td>
 </tr>
 <tr>
 <th>2</th>
-<td>2024-11-03</td>
+<td>2023-10-10</td>
 <td>2</td>
 </tr>
 <tr>
 <th>3</th>
-<td>2024-09-04</td>
+<td>2023-09-10</td>
 <td>2</td>
 </tr>
 <tr>
 <th>4</th>
-<td>2023-11-14</td>
+<td>2024-03-08</td>
 <td>2</td>
 </tr>
 <tr>
@@ -8198,7 +8198,7 @@ Summary of all file types across all directories:
 </tr>
 <tr>
 <th>6</th>
-<td>2024-03-08</td>
+<td>2024-08-05</td>
 <td>2</td>
 </tr>
 <tr>
@@ -8213,37 +8213,37 @@ Summary of all file types across all directories:
 </tr>
 <tr>
 <th>9</th>
-<td>2023-09-10</td>
-<td>2</td>
-</tr>
-<tr>
-<th>10</th>
-<td>2023-10-10</td>
-<td>2</td>
-</tr>
-<tr>
-<th>11</th>
 <td>2024-01-08</td>
 <td>2</td>
 </tr>
 <tr>
-<th>12</th>
+<th>10</th>
 <td>2023-12-09</td>
 <td>2</td>
 </tr>
 <tr>
-<th>13</th>
+<th>11</th>
 <td>2024-04-07</td>
 <td>2</td>
 </tr>
 <tr>
+<th>12</th>
+<td>2024-02-07</td>
+<td>2</td>
+</tr>
+<tr>
+<th>13</th>
+<td>2024-09-04</td>
+<td>2</td>
+</tr>
+<tr>
 <th>14</th>
-<td>2024-07-06</td>
+<td>2023-11-14</td>
 <td>2</td>
 </tr>
 <tr>
 <th>15</th>
-<td>2023-11-09</td>
+<td>2024-11-03</td>
 <td>2</td>
 </tr>
 </tbody>
@@ -8304,7 +8304,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""SELECT s.* from sleep_data s where dateOfSleep in </span>
@@ -9078,14 +9078,14 @@ Summary of all file types across all directories:
 <td>44096210623</td>
 <td>2.0</td>
 <td>62.0</td>
-<td>91.0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>11</th>
 <td>44096210623</td>
 <td>2.0</td>
 <td>62.0</td>
-<td>0.0</td>
+<td>91.0</td>
 </tr>
 <tr>
 <th>12</th>
@@ -9106,14 +9106,14 @@ Summary of all file types across all directories:
 <td>44796156145</td>
 <td>7.0</td>
 <td>92.0</td>
-<td>77.0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>15</th>
 <td>44796156145</td>
 <td>7.0</td>
 <td>92.0</td>
-<td>0.0</td>
+<td>77.0</td>
 </tr>
 <tr>
 <th>16</th>
@@ -9134,14 +9134,14 @@ Summary of all file types across all directories:
 <td>45472556013</td>
 <td>3.0</td>
 <td>75.0</td>
-<td>0.0</td>
+<td>80.0</td>
 </tr>
 <tr>
 <th>19</th>
 <td>45472556013</td>
 <td>3.0</td>
 <td>75.0</td>
-<td>80.0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>20</th>
@@ -9162,14 +9162,14 @@ Summary of all file types across all directories:
 <td>46126383325</td>
 <td>7.0</td>
 <td>107.0</td>
-<td>0.0</td>
+<td>73.0</td>
 </tr>
 <tr>
 <th>23</th>
 <td>46126383325</td>
 <td>7.0</td>
 <td>107.0</td>
-<td>73.0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>24</th>
@@ -9218,14 +9218,14 @@ Summary of all file types across all directories:
 <td>47353917202</td>
 <td>6.0</td>
 <td>84.0</td>
-<td>81.0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>31</th>
 <td>47353917202</td>
 <td>6.0</td>
 <td>84.0</td>
-<td>0.0</td>
+<td>81.0</td>
 </tr>
 </tbody>
 </table>
@@ -9252,7 +9252,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sleep_meta_df</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""Select distinct logId, dateOfSleep, startTime, endTime, duration, minutesToFallAsleep, minutesAsleep,</span>
@@ -9310,16 +9310,16 @@ Summary of all file types across all directories:
 <tbody>
 <tr>
 <th>0</th>
-<td>42599702222</td>
-<td>2023-08-30</td>
-<td>2023-08-29 22:21:00</td>
-<td>2023-08-30 05:46:30</td>
-<td>26700000</td>
+<td>45306958018</td>
+<td>2024-04-22</td>
+<td>2024-04-21 22:19:30</td>
+<td>2024-04-22 05:31:30</td>
+<td>25920000</td>
 <td>0</td>
-<td>409</td>
-<td>36</td>
-<td>1</td>
-<td>445</td>
+<td>388</td>
+<td>44</td>
+<td>2</td>
+<td>432</td>
 <td>98</td>
 <td>stages</td>
 <td>0</td>
@@ -9328,17 +9328,17 @@ Summary of all file types across all directories:
 </tr>
 <tr>
 <th>1</th>
-<td>44071575399</td>
-<td>2024-01-06</td>
-<td>2024-01-05 20:47:30</td>
-<td>2024-01-06 06:09:30</td>
-<td>33720000</td>
+<td>46987212286</td>
+<td>2024-09-28</td>
+<td>2024-09-27 22:12:00</td>
+<td>2024-09-28 07:05:30</td>
+<td>31980000</td>
 <td>0</td>
-<td>522</td>
-<td>40</td>
-<td>0</td>
-<td>562</td>
-<td>99</td>
+<td>480</td>
+<td>53</td>
+<td>1</td>
+<td>533</td>
+<td>100</td>
 <td>stages</td>
 <td>0</td>
 <td>auto_detected</td>
@@ -9346,14 +9346,50 @@ Summary of all file types across all directories:
 </tr>
 <tr>
 <th>2</th>
-<td>44061788488</td>
-<td>2024-01-05</td>
-<td>2024-01-04 21:40:00</td>
-<td>2024-01-05 05:31:30</td>
+<td>46876496336</td>
+<td>2024-09-17</td>
+<td>2024-09-16 23:24:00</td>
+<td>2024-09-17 06:12:00</td>
+<td>24480000</td>
+<td>0</td>
+<td>358</td>
+<td>50</td>
+<td>0</td>
+<td>408</td>
+<td>99</td>
+<td>stages</td>
+<td>0</td>
+<td>auto_detected</td>
+<td>True</td>
+</tr>
+<tr>
+<th>3</th>
+<td>46843361089</td>
+<td>2024-09-14</td>
+<td>2024-09-13 22:03:30</td>
+<td>2024-09-14 04:32:30</td>
+<td>23340000</td>
+<td>0</td>
+<td>354</td>
+<td>35</td>
+<td>3</td>
+<td>389</td>
+<td>98</td>
+<td>stages</td>
+<td>0</td>
+<td>auto_detected</td>
+<td>True</td>
+</tr>
+<tr>
+<th>4</th>
+<td>46806686902</td>
+<td>2024-09-10</td>
+<td>2024-09-09 22:13:30</td>
+<td>2024-09-10 06:04:30</td>
 <td>28260000</td>
 <td>0</td>
-<td>430</td>
-<td>41</td>
+<td>427</td>
+<td>44</td>
 <td>0</td>
 <td>471</td>
 <td>99</td>
@@ -9363,54 +9399,18 @@ Summary of all file types across all directories:
 <td>True</td>
 </tr>
 <tr>
-<th>3</th>
-<td>44002463939</td>
-<td>2023-12-31</td>
-<td>2023-12-30 23:14:30</td>
-<td>2023-12-31 06:41:30</td>
-<td>26820000</td>
-<td>0</td>
-<td>396</td>
-<td>51</td>
-<td>0</td>
-<td>447</td>
-<td>98</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-</tr>
-<tr>
-<th>4</th>
-<td>43791083569</td>
-<td>2023-12-12</td>
-<td>2023-12-11 22:03:00</td>
-<td>2023-12-12 05:30:30</td>
-<td>26820000</td>
-<td>0</td>
-<td>395</td>
-<td>52</td>
-<td>0</td>
-<td>447</td>
-<td>99</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-</tr>
-<tr>
 <th>5</th>
-<td>43770861585</td>
-<td>2023-12-10</td>
-<td>2023-12-09 23:31:30</td>
-<td>2023-12-10 06:28:00</td>
-<td>24960000</td>
+<td>46795305204</td>
+<td>2024-09-09</td>
+<td>2024-09-08 21:32:00</td>
+<td>2024-09-09 06:09:30</td>
+<td>31020000</td>
 <td>0</td>
-<td>373</td>
-<td>43</td>
-<td>0</td>
-<td>416</td>
-<td>98</td>
+<td>464</td>
+<td>53</td>
+<td>1</td>
+<td>517</td>
+<td>99</td>
 <td>stages</td>
 <td>0</td>
 <td>auto_detected</td>
@@ -9440,7 +9440,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sleep_summary</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""with summary_data as (select logId, unnest(levels.summary, max_depth := 1) from sleep_data),</span>
@@ -9615,7 +9615,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sleep_data_detail</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""select logId, unnest(levels.data, recursive := True) from sleep_data order by logId"""</span><span class="p">)</span>
@@ -9753,7 +9753,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sleep_data_agg</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""select logId, level, count(*) as count_of_stages, sum(seconds)/60 as total_minutes from sleep_data_detail</span>
@@ -9904,7 +9904,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sleep_short_data</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""select logId, unnest(levels.shortData, recursive := True) from sleep_data order by logId"""</span><span class="p">)</span>
@@ -10164,7 +10164,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sleep_data_diff</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""select s.logId, s.stage, s.count as summary_count_of_stages, s.minutes as summary_total_minutes, </span>
@@ -10361,7 +10361,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
@@ -10419,7 +10419,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">heart_rate_data</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s1">'./data/unzipped/Takeout/Fitbit/Global Export Data/heart_rate-*.json'</span><span class="p">,</span> <span class="n">timestamp_format</span><span class="o">=</span><span class="s2">"%m/</span><span class="si">%d</span><span class="s2">/%y %H:%M:%S"</span><span class="p">)</span>
@@ -10565,63 +10565,63 @@ Summary of all file types across all directories:
 <td>2.855</td>
 </tr>
 <tr>
-<th>12</th>
+<th>125</th>
 <td>2023-08-14</td>
 <td>40.485</td>
 <td>67.520</td>
 <td>2.632</td>
 </tr>
 <tr>
-<th>33</th>
+<th>364</th>
 <td>2023-08-15</td>
 <td>51.453</td>
 <td>58.189</td>
 <td>2.803</td>
 </tr>
 <tr>
-<th>94</th>
+<th>17</th>
 <td>2023-08-16</td>
 <td>37.462</td>
 <td>64.676</td>
 <td>2.446</td>
 </tr>
 <tr>
-<th>4</th>
+<th>336</th>
 <td>2023-08-17</td>
 <td>53.514</td>
 <td>60.341</td>
 <td>2.801</td>
 </tr>
 <tr>
-<th>20</th>
+<th>304</th>
 <td>2023-08-18</td>
 <td>48.468</td>
 <td>62.162</td>
 <td>2.742</td>
 </tr>
 <tr>
-<th>31</th>
+<th>394</th>
 <td>2023-08-19</td>
 <td>52.700</td>
 <td>56.938</td>
 <td>2.955</td>
 </tr>
 <tr>
-<th>6</th>
+<th>14</th>
 <td>2023-08-20</td>
 <td>54.221</td>
 <td>61.383</td>
 <td>3.103</td>
 </tr>
 <tr>
-<th>5</th>
+<th>2</th>
 <td>2023-08-21</td>
 <td>65.983</td>
 <td>54.468</td>
 <td>2.953</td>
 </tr>
 <tr>
-<th>1</th>
+<th>3</th>
 <td>2023-08-22</td>
 <td>50.733</td>
 <td>57.393</td>
@@ -10650,7 +10650,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%%time</span>it
@@ -10671,7 +10671,7 @@ Summary of all file types across all directories:
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>3.65 ms ± 387 μs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+<pre>1.32 ms ± 45 μs per loop (mean ± std. dev. of 7 runs, 1,000 loops each)
 </pre>
 </div>
 </div>
@@ -10682,7 +10682,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%%time</span>it
@@ -10704,7 +10704,7 @@ Summary of all file types across all directories:
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>979 ms ± 48.4 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+<pre>423 ms ± 22.6 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
 </pre>
 </div>
 </div>
@@ -10715,7 +10715,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">adj_sleep_summary_df</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""pivot sleep_summary on stage </span>
@@ -10954,7 +10954,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">adj_sleep_summary_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -10983,7 +10983,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">complete_sleep_data</span> <span class="o">=</span> <span class="n">sleep_meta_df</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">adj_sleep_summary_df</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">'logId'</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'dateOfSleep'</span><span class="p">)</span>
@@ -11028,13 +11028,7 @@ Summary of all file types across all directories:
 <th>minutesAwake</th>
 <th>minutesAfterWakeup</th>
 <th>timeInBed</th>
-<th>efficiency</th>
-<th>type</th>
-<th>infoCode</th>
-<th>logType</th>
-<th>mainSleep</th>
-<th>deep_count</th>
-<th>deep_minutes</th>
+<th>...</th>
 <th>deep_thirtyDayAvgMinutes</th>
 <th>light_count</th>
 <th>light_minutes</th>
@@ -11049,7 +11043,7 @@ Summary of all file types across all directories:
 </thead>
 <tbody>
 <tr>
-<th>91</th>
+<th>71</th>
 <td>47560780256</td>
 <td>2024-11-23</td>
 <td>2024-11-23 00:19:00</td>
@@ -11060,13 +11054,7 @@ Summary of all file types across all directories:
 <td>54</td>
 <td>0</td>
 <td>433</td>
-<td>100</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>3.0</td>
-<td>52.0</td>
+<td>...</td>
 <td>71.0</td>
 <td>22.0</td>
 <td>279.0</td>
@@ -11079,7 +11067,7 @@ Summary of all file types across all directories:
 <td>52.0</td>
 </tr>
 <tr>
-<th>28</th>
+<th>423</th>
 <td>47568889247</td>
 <td>2024-11-24</td>
 <td>2024-11-23 22:22:00</td>
@@ -11090,13 +11078,7 @@ Summary of all file types across all directories:
 <td>61</td>
 <td>0</td>
 <td>549</td>
-<td>99</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>5.0</td>
-<td>99.0</td>
+<td>...</td>
 <td>70.0</td>
 <td>38.0</td>
 <td>314.0</td>
@@ -11109,7 +11091,7 @@ Summary of all file types across all directories:
 <td>52.0</td>
 </tr>
 <tr>
-<th>440</th>
+<th>376</th>
 <td>47578085269</td>
 <td>2024-11-25</td>
 <td>2024-11-24 22:42:30</td>
@@ -11120,13 +11102,7 @@ Summary of all file types across all directories:
 <td>51</td>
 <td>0</td>
 <td>423</td>
-<td>98</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>3.0</td>
-<td>75.0</td>
+<td>...</td>
 <td>71.0</td>
 <td>19.0</td>
 <td>233.0</td>
@@ -11139,7 +11115,7 @@ Summary of all file types across all directories:
 <td>52.0</td>
 </tr>
 <tr>
-<th>439</th>
+<th>375</th>
 <td>47589819717</td>
 <td>2024-11-26</td>
 <td>2024-11-25 22:29:30</td>
@@ -11150,13 +11126,7 @@ Summary of all file types across all directories:
 <td>38</td>
 <td>0</td>
 <td>495</td>
-<td>100</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>3.0</td>
-<td>91.0</td>
+<td>...</td>
 <td>72.0</td>
 <td>21.0</td>
 <td>262.0</td>
@@ -11169,7 +11139,7 @@ Summary of all file types across all directories:
 <td>52.0</td>
 </tr>
 <tr>
-<th>90</th>
+<th>70</th>
 <td>47599022157</td>
 <td>2024-11-27</td>
 <td>2024-11-26 22:39:00</td>
@@ -11180,13 +11150,7 @@ Summary of all file types across all directories:
 <td>32</td>
 <td>0</td>
 <td>322</td>
-<td>99</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>3.0</td>
-<td>49.0</td>
+<td>...</td>
 <td>72.0</td>
 <td>14.0</td>
 <td>202.0</td>
@@ -11200,6 +11164,7 @@ Summary of all file types across all directories:
 </tr>
 </tbody>
 </table>
+<p>5 rows × 27 columns</p>
 </div>
 </div>
 </div>
@@ -11221,7 +11186,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">complete_sleep_data</span> <span class="o">=</span> <span class="n">sleep_meta_df</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">adj_sleep_summary_df</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">'logId'</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'dateOfSleep'</span><span class="p">)</span>
@@ -11266,13 +11231,7 @@ Summary of all file types across all directories:
 <th>minutesAwake</th>
 <th>minutesAfterWakeup</th>
 <th>timeInBed</th>
-<th>efficiency</th>
-<th>type</th>
-<th>infoCode</th>
-<th>logType</th>
-<th>mainSleep</th>
-<th>deep_count</th>
-<th>deep_minutes</th>
+<th>...</th>
 <th>deep_thirtyDayAvgMinutes</th>
 <th>light_count</th>
 <th>light_minutes</th>
@@ -11287,7 +11246,7 @@ Summary of all file types across all directories:
 </thead>
 <tbody>
 <tr>
-<th>91</th>
+<th>71</th>
 <td>47560780256</td>
 <td>2024-11-23</td>
 <td>2024-11-23 00:19:00</td>
@@ -11298,13 +11257,7 @@ Summary of all file types across all directories:
 <td>54</td>
 <td>0</td>
 <td>433</td>
-<td>100</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>3.0</td>
-<td>52.0</td>
+<td>...</td>
 <td>71.0</td>
 <td>22.0</td>
 <td>279.0</td>
@@ -11317,7 +11270,7 @@ Summary of all file types across all directories:
 <td>52.0</td>
 </tr>
 <tr>
-<th>28</th>
+<th>423</th>
 <td>47568889247</td>
 <td>2024-11-24</td>
 <td>2024-11-23 22:22:00</td>
@@ -11328,13 +11281,7 @@ Summary of all file types across all directories:
 <td>61</td>
 <td>0</td>
 <td>549</td>
-<td>99</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>5.0</td>
-<td>99.0</td>
+<td>...</td>
 <td>70.0</td>
 <td>38.0</td>
 <td>314.0</td>
@@ -11347,7 +11294,7 @@ Summary of all file types across all directories:
 <td>52.0</td>
 </tr>
 <tr>
-<th>440</th>
+<th>376</th>
 <td>47578085269</td>
 <td>2024-11-25</td>
 <td>2024-11-24 22:42:30</td>
@@ -11358,13 +11305,7 @@ Summary of all file types across all directories:
 <td>51</td>
 <td>0</td>
 <td>423</td>
-<td>98</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>3.0</td>
-<td>75.0</td>
+<td>...</td>
 <td>71.0</td>
 <td>19.0</td>
 <td>233.0</td>
@@ -11377,7 +11318,7 @@ Summary of all file types across all directories:
 <td>52.0</td>
 </tr>
 <tr>
-<th>439</th>
+<th>375</th>
 <td>47589819717</td>
 <td>2024-11-26</td>
 <td>2024-11-25 22:29:30</td>
@@ -11388,13 +11329,7 @@ Summary of all file types across all directories:
 <td>38</td>
 <td>0</td>
 <td>495</td>
-<td>100</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>3.0</td>
-<td>91.0</td>
+<td>...</td>
 <td>72.0</td>
 <td>21.0</td>
 <td>262.0</td>
@@ -11407,7 +11342,7 @@ Summary of all file types across all directories:
 <td>52.0</td>
 </tr>
 <tr>
-<th>90</th>
+<th>70</th>
 <td>47599022157</td>
 <td>2024-11-27</td>
 <td>2024-11-26 22:39:00</td>
@@ -11418,13 +11353,7 @@ Summary of all file types across all directories:
 <td>32</td>
 <td>0</td>
 <td>322</td>
-<td>99</td>
-<td>stages</td>
-<td>0</td>
-<td>auto_detected</td>
-<td>True</td>
-<td>3.0</td>
-<td>49.0</td>
+<td>...</td>
 <td>72.0</td>
 <td>14.0</td>
 <td>202.0</td>
@@ -11438,6 +11367,7 @@ Summary of all file types across all directories:
 </tr>
 </tbody>
 </table>
+<p>5 rows × 27 columns</p>
 </div>
 </div>
 </div>
@@ -11459,7 +11389,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">final_df</span> <span class="o">=</span> <span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">"""WITH Complete_Sleep AS (</span>
@@ -11519,7 +11449,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.max_columns'</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
@@ -11927,7 +11857,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">final_df</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>  
@@ -11941,7 +11871,7 @@ Summary of all file types across all directories:
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -12756,7 +12686,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -12809,7 +12739,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">final_filt_df</span> <span class="o">=</span> <span class="n">final_df</span><span class="p">[[</span><span class="s1">'dateOfSleep'</span><span class="p">,</span> <span class="s1">'bpm_max'</span><span class="p">,</span> <span class="s1">'bpm_min'</span><span class="p">,</span> <span class="s1">'bpm_avg'</span><span class="p">,</span>
@@ -12840,7 +12770,7 @@ Summary of all file types across all directories:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># organize it all</span>
